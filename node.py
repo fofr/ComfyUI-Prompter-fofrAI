@@ -41,7 +41,11 @@ class PromptFromTemplate:
             item_count = min(item_count, 50)
 
             if list_name == "random":
-                random_items = [self.get_random_list()(1) for _ in range(item_count)]
+                random_list_names = [self.get_random_list() for _ in range(item_count)]
+                random_items = [
+                    self.get_random_items_from_list(list_name, 1)[0]
+                    for list_name in random_list_names
+                ]
                 return ", ".join(random_items)
 
             if list_name not in self.all_lists:
