@@ -9,8 +9,24 @@ For example:
 Gives:
 
 > A film still of a ghost hunter, conflict, 8mm film, low-key color grading, cineon, set in 1890
+
 > A film still of a siren, holding a grudge, prores, hdr, haze, set in 1909
+
 > A film still of a demon princess, assistance, 8k resolution, hard light, bokeh, set in 1858
+
+## Features
+
+Multiple list items:
+
+[animal.mammal,2]
+
+> giraffe, lion
+
+Get multiple items from multiple random lists:
+
+[random,2]
+
+> demon princess, hdr
 
 ## Lists
 
