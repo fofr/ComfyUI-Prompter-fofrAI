@@ -1,0 +1,3 @@
+[submodule "prompt-lists"]
+	path = prompt-lists
+	url = https://github.com/ai-prompts/prompt-lists.git
