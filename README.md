@@ -2,6 +2,8 @@
 
 A prompt helper. Use templates from https://prompter.fofr.ai/ in ComfyUI.
 
+https://github.com/fofr/ComfyUI-Prompter-fofrAI/assets/319055/fa5d40ea-5fe9-4d98-94bc-e91b5e66edd0
+
 For example:
 
 > A film still of [character.fantasy], [interaction.couple], [cinematic.keyword], [cinematic.coloring], [cinematic.effect], set in [time.year]
