@@ -59,7 +59,7 @@ class PromptFromTemplate:
 
     def get_all_available_lists(self):
         lists_path = os.path.join(self.PROMPT_LISTS_DIR, "lists.json")
-        with open(lists_path, "r") as file:
+        with open(lists_path, "r", encoding="utf-8") as file:
             lists = json.load(file)
         return lists
 
@@ -73,7 +73,7 @@ class PromptFromTemplate:
         hyphenated_list = re.sub(r"([a-z])([A-Z])", r"\1-\2", list_name).lower()
         category, name = hyphenated_list.split(".")
         lists_path = os.path.join(self.PROMPT_LISTS_DIR, f"lists/{category}/{name}.yml")
-        with open(lists_path, "r") as file:
+        with open(lists_path, "r", encoding="utf-8") as file:
             content = file.read()
             list_data = content.split("---")[2].strip().split("\n")
 
