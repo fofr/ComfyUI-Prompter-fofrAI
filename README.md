@@ -16,7 +16,12 @@ Gives:
 
 > A film still of a demon princess, assistance, 8k resolution, hard light, bokeh, set in 1858
 
-## Features
+## Nodes
+
+- Prompt from template: Turn a template into a prompt
+- List sampler: Sample items from a list, sequentially or randomly
+
+## Prompt template features
 
 Multiple list items:
 
@@ -31,6 +36,8 @@ Get multiple items from multiple random lists:
 > demon princess, hdr
 
 ## Lists
+
+You can use the list sampler node to see what prompt lists are available.
 
 See available lists:
 
