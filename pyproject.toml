@@ -11,4 +11,4 @@ Repository = "https://github.com/fofr/comfyui-prompter-fofrai"
 [tool.comfy]
 PublisherId = "fofr"
 DisplayName = "ComfyUI-Prompter-fofrAI"
-Icon = ""
+Icon = "🪴"
