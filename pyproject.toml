@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-prompter-fofrai"
 description = "A prompt helper for ComfyUI, based on prompter.fofr.ai"
-version = "1.0.2"
+version = "1.0.3"
 license = { file = "LICENSE" }
 
 [project.urls]
